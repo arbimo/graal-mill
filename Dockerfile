@@ -5,7 +5,7 @@ FROM oracle/graalvm-ce:1.0.0-rc12
 
 # Env variables
 ENV SCALA_VERSION 2.12.8
-ENV MILL_VERSION 0.3.6
+ENV MILL_VERSION 0.3.5
 
 # Define working directory
 WORKDIR /root
